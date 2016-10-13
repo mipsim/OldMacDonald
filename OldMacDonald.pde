@@ -1,14 +1,14 @@
-public void setup()
-{    
-    Cow c = new Cow("cow", "moo");   
-    System.out.println(c.getType() + " goes " + c.getSound()); 
+public void setup() 
+{
+	Farm macD = new Farm();
+	macD.animalSounds();
 
-    Chick k = new Chick("chick", "cheep");   
-    System.out.println(k.getType() + " goes " + k.getSound());
+    //NamedCow c = new NamedCow("cow", "Elsie", "moo");   
+    //System.out.println(c.getType() + c.getName() + " goes " + c.getSound());   
 
-    Pig p = new Pig("pig", "oink");   
-    System.out.println(p.getType() + " goes " + p.getSound());
+    //Chick k = new Chick("chick", "cluck", "cheep");   
+    //System.out.println(k.getType() + " goes " + k.getSound());
 
-    Farm f = new Farm();
-    f.animalSounds();
+    //Pig p = new Pig("pig", "oink");   
+    //System.out.println(p.getType() + " goes " + p.getSound());  
 }
